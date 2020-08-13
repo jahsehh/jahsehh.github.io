@@ -1,0 +1,75 @@
+/* https://coolors.co/e8c547-30323d-4d5061-5c80bc-cdd1c4
+
+Maize Crayole - #E8C547
+Jet           - #30323D
+Independence  - #4D5061
+Glaucous      - #5C80BC
+Timberwolf    - #CDD1C4
+
+*/
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #30323D;
+  color: #CDD1C4;
+}
+
+#content {
+  max-width: 1280px;
+  margin: auto;
+}
+
+header {
+  background-color: #4D5061;
+}
+
+nav {
+  overflow: auto;
+  position: relative;
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: flex-end;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;;
+}
+
+nav a {
+  font-size: 1.05rem;
+  text-decoration: none;
+  color: #CDD1C4;
+  font-weight: 400;
+  padding: 8px 15px;
+}
+
+nav a:hover {
+  background-color: rgba(255,255,255,.15);
+}
+
+nav a.active {
+  border-bottom: 1px solid #E8C547;
+  background-color: rgba(255,255,255,.15);
+}
+
+section img {
+  float: left;
+  margin: 1rem 1rem 0 0;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+h1, h2, h3, h4, h5, h6, nav a.active {
+  color: #E8C547;
+}
+
+section p {
+  margin-top: 1rem;
+}
